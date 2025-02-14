@@ -92,12 +92,13 @@ To translate the messages, edit the `.po` file located in the `langs` directory.
 
 The `Require ZIP Plugin` class is accompanied by a `langs` directory containing translation files. When using this class in your plugins or themes, place the `rzp` directory in the root of your project. For example:
 ```
-/your-plugin/
-├── rzp/
-│ ├── require-zip-plugin.php
-│ └── langs/
-│ ├── rzp-pt_BR.mo
-│ ├── rzp-pt_BR.po
-│ └── rzp.pot
+your-plugin/
+├─── rzp/
+│  ├── require-zip-plugin.php
+│  ├── README.md
+│  └── langs/
+│    ├── rzp-pt_BR.mo
+│    ├── rzp-pt_BR.po
+│    └── rzp.pot
 └── your-plugin.php
 ```
